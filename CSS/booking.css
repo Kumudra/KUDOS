@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    padding: 40px;
+    height: 200px;
+}
+
+.nav{
+    margin: 30px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.web-name{
+    flex: 1;
+}
+.logo{
+    float: right;
+    position: relative;
+    height: 80px;
+    
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+hr{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+
+.nav-bar{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+.nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav-bar ul li{
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+}
+.nav-bar ul:hover a{
+    color: #484141;
+}
+.nav-bar ul:hover a:hover{
+    color: #337d8a;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+
+
+section{
+    padding-inline: 200px;
+}
+.title{
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.booking{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.booking-img{
+    border: 0.5px solid black;
+    width: 353px;
+    margin: 10px;
+}
+
+div.desc{
+    padding: 50px;
+    margin-top: -60px;
+    text-align: left;
+}
+.subtitle{
+    margin: 30px;
+    margin-left: -10px;
+    font-size: 25px;
+}
+.line{
+    width: 253px;
+    margin: 1px;
+}
+h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+button{
+    width: 7em;
+    height: 3em;
+    border: #887159;
+    position: relative;
+    
+    margin: 40px;
+    margin-bottom: -40px;
+    margin-left: -20px;
+    background-color: #887159;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+footer{
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.social-footer{
+    margin-top: 100px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-footer i{
+    margin-bottom: 30px;
+}
